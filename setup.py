@@ -14,7 +14,7 @@ def requires():
     return text
 
 setup(
-    name= "face_identification",
+    name= "best_face_identification",
     version= "1.0.0",
     author="javad nematollahi",
     description="This app is a face identifier. If your face is existed in face bank, you recieved True, otherwise False.",
