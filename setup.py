@@ -1,4 +1,4 @@
-from setuptools import setup,find_packages
+from setuptools import setup
 
 
 def pre_install():
@@ -6,7 +6,6 @@ def pre_install():
     text = f.read()
     return text
 
-long_des = pre_install()
 
 def requires():
     f = open("requirements.txt", "r")
@@ -19,7 +18,7 @@ setup(
     version= "1.0.0",
     author="javad nematollahi",
     description="This app is a face identifier. If your face is existed in face bank, you recieved True, otherwise False.",
-    long_description=long_des,
+    long_description=pre_install(),
     install_requires=requires(),
     entry_points={
         'console_scripts': [
@@ -27,7 +26,7 @@ setup(
         ],
     },
     author_email="javadnematollahi92@gmail.com",
-    packages=find_packages()
+    packages=['face_identification']
 )
 
 
