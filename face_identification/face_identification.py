@@ -2,7 +2,7 @@ import cv2
 from insightface.app import FaceAnalysis
 import numpy as np
 import argparse
-from creat_face_bank import AddUser
+from face_identification.creat_face_bank import AddUser
 import time
 
 
