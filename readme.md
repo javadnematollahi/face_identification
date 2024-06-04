@@ -43,5 +43,9 @@ result would be False if your face hadn't been added to facebank.
 # How to install 
 
 ```
+pip install git+https://github.com/javadnematollahi/face_identification
+```
+
+```
 pip install face_identidfy
 ```
