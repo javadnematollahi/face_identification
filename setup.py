@@ -19,6 +19,7 @@ setup(
     author="javad nematollahi",
     description="This app is a face identifier. If your face is existed in face bank, you recieved True, otherwise False.",
     long_description=pre_install(),
+    long_description_content_type='text/markdown',
     install_requires=requires(),
     entry_points={
         'console_scripts': [
