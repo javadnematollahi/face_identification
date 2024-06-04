@@ -21,7 +21,7 @@ If you use ```--update``` app first will try to add a new face face to facebank,
 
 If you set url as ```--url http://192.168.112.69:8080/video``` app will use it to connect to a camera. If your system has a webcam or camera you can leave this parameter empty, so app automatically connect to first finded camera.
 
-You can use ```npy_file_path="new_facebank.npy"``` if you want to create a new facebank
+You can use ```--npyfile new_facebank.npy``` if you want to create a new facebank
 
 In Python environment:
 
