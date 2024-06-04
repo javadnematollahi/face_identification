@@ -6,6 +6,8 @@ def pre_install():
     text = f.read()
     return text
 
+long_des = pre_install()
+
 def requires():
     f = open("requirements.txt", "r")
     text = f.read()
@@ -17,7 +19,7 @@ setup(
     version= "1.0.0",
     author="javad nematollahi",
     description="This app is a face identifier. If your face is existed in face bank, you recieved True, otherwise False.",
-    long_description=pre_install(),
+    long_description=long_des,
     install_requires=requires(),
     entry_points={
         'console_scripts': [
