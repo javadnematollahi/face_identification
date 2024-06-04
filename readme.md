@@ -47,5 +47,10 @@ pip install git+https://github.com/javadnematollahi/face_identification
 ```
 
 ```
-pip install face_identidfy
+pip install best-face-identification
 ```
+
+
+## pypi link package:
+
+https://pypi.org/project/best-face-identification/
